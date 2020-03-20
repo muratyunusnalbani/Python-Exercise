@@ -1,0 +1,28 @@
+#Starting Out With Python 3.Edition
+#Tonny Gaddis kitabının alıştırmalarından yapılmıştır.syf-95
+#Adı,Soyadı,Şehri,Telefon numarası,adres,ZIP(nedir anlamadım böyle bir şey girmiyecem) ve üniversite
+#bilgilerini gösteren bir program yazınız.
+
+a=input("Adınız nedir: ")
+b=input("Soyadınız nedir: ")
+
+#Mahalleni belirtmen için birden çok değişken kullanmalıyız.
+#Çünkü daire ve numara yazarken sayı belirtmek lazım.
+
+mah=input("Mahalenizi giriniz: ")          #Rakam içermesin.
+cad=input("Caddenizi giriniz:")            #Rakam içermesin.
+bina=input("Bina veya Siteyi giriniz")     #Rakam içermesin.
+no=int(input("Numarayı giriniz: "))
+dai=int(input("Daireyi giriniz: "))
+
+
+
+d=int(input("Telefon numaranızı giriniz: "))
+e=input("Üniversitenizi belirtiniz: ")
+#---------------------------------------------------
+print("-------------------------------------------")
+print("Adınız: ",a)
+print("Soyadınız: ",b)
+print("Adres: ",mah,"Mah.",cad,"Cad.",bina,"No: ",no,"Dai: ",dai,sep=' ')
+print("Telefonunuz: ",d)
+print("Okudunuz Üniversite: ",e)
