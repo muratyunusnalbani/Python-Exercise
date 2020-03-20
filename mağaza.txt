@@ -1,0 +1,36 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 95 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Bir mağazamız olsun.
+#Bir müşteri 5 tane ürün satın alsın.
+#Her bir ürün'ün fiyatını soracak.
+#Daha sonra bu ürünlerin fiyatların toplamını alacak.
+#Sonra'da bu ürünlerin vergisi alınacak.%7 vergisidir.
+
+#---------------------------------------------------------------------
+
+#Ürünlerin fiyatlarını girelim.
+urun1=int(input("Fiyatını giriniz: "))
+urun2=int(input("Fiyatını giriniz: "))
+urun3=int(input("Fiyatını giriniz: "))
+urun4=int(input("Fiyatını giriniz: "))
+urun5=int(input("Fiyatını giriniz: "))
+
+#Daha sonra bu 5 tane ürünün toplamını alalım.
+toplam=urun1+urun2+urun3+urun4+urun5
+
+#Ekrana yazdıralım.
+print(toplam)
+
+#Vergisini hesaplayalım.
+vergi=toplam*0.07
+
+#Vergisini ekrana yazdıralım.
+print(vergi)
+
+print("₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺")
+
+print("Toplam satış miktarı",toplam,"₺ dir.")
+print("Kesilen vergi",vergi,'.1f',"₺ dir.")
