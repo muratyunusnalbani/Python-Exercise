@@ -1,0 +1,17 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 95 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Bir şirket yıllık karı,toplam satışların %23 olduğu belirtmiştir.
+#Kullanıcının öngörülen toplam satış miktarını girecez...
+#...ardından bu tutardan elde edilecek karı gösterecek ...
+#...bir program yazınız.
+
+#Toplam satışını girelim
+top_satıs=int(input("Toplam satışını giriniz: "))
+
+kar=top_satıs*0.23    #%23=0.23 olduğunu biliyoruz.
+
+#En sonunda karını hesaplayacaz.
+print("İşte bizim karımız ",kar)
