@@ -1,0 +1,13 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 95 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Bir dönümlük arazi 43.560 fit karedir.
+#kullanıcının toplam metrekaresini bir kara parçasının...
+#... içeri girmesini ve kanaldaki dönüm sayısını...
+#...hesaplayan bir program yazınız.
+
+toplam=int(input("Toplam metrekareyi giriniz: "))
+donum=toplam/43.560
+print("Toplam dönümünüz ",donum)
