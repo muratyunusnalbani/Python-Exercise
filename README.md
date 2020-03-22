@@ -1,2 +1,2 @@
-# Al-t-rmalar-m
+# Alıstırmalarım                          
 Kendi kendime yaptığım alıştırmalardır.
