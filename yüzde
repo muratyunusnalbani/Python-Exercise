@@ -1,0 +1,17 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 96 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Kullanıcıdan erkek sayısını ve bir sınıfa kayıtlı oaln kız sayısını isteyen bir program yazın.
+#Program erkek ve kadın yüzdesini vermelidir.
+
+erkek=int(input("Erkek sayısını giriniz: "))
+kız=  int(input("Kadın sayısını giriniz: "))
+
+toplam=erkek+kız
+yuz_erkek=erkek/toplam
+yuz_kız  =kız  /toplam
+
+print("Erkeklerin %",yuz_erkek*100," ını oluşturur.")
+print("kızların   %",yuz_kız  *100 ," ını oluşturur.")
