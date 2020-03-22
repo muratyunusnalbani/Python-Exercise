@@ -1,0 +1,30 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 96 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Bir kek yapmak istiyoruz.Bir kek için gereken malzemeler şunlardır:
+#1.5 bardak şeker
+#1 bardak tereyağ
+#2.75 bardak un
+#Bu tariflerle 48 kurabiye üretilmektedir.
+#Kullanıcıya ne kadar kurabiye yapmak istediğini soran ve ardından
+#her bileşeni kap sayısını gösteren bir program yazın.
+
+#---------------------------------------------------------------------
+#Doğru orantı yöntemini kullanacağız.
+#---------------------------------------------------------------------
+#1.5 bardak şekerden 48 kurabiye çıkarsa 1 tane kurabiye için 0.03125 bardak şeker gerekir.
+#1 bardak tereyağdan 48 kurabiye çıkarsa 1 tane kurabiye için 0.02 bardak tereyağ çıkar (YAKLAŞIK DEĞERDİR.)
+#2.75 bardak undan 48 kurabiye çıkarsa 1 tane kurabiye için 0.06 bardak un çıkar.(YAKLAŞIK DEĞERDİR.)
+
+
+kurabiye= int(input("Kaç adet kurabiye istersiniz: "))
+seker=    kurabiye*0.03125
+tereyag=  kurabiye*0.02
+un=       kurabiye*0.06
+
+#Şimdi ekrana yazdıracaz.
+print("İstediğiniz kek için kullanmanız gereken şeker: ",  seker)
+print("İstediğiniz kek için kullanmanız gereken tereyağ: ",tereyag)
+print("İstediğiniz kek için kullanmanız gereken un: ",     un)
