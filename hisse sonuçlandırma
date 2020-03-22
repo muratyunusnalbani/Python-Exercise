@@ -1,0 +1,47 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 97 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Geçen ay Joe,Acme Yazılımdan bir miktar hisse satın alıyor.
+#Satın alınan hisse sayısı 2000 dir.
+#Hisse başına ödenen miktar 40$ dır.
+#Hisse için ödenen tutarın %3 ünü komisyoncu alır.
+
+#2 hafta sonra hisse senedini satar.
+
+#Satılan hisse sayısı 2000 dir
+#Bir adet hisse değeri 42.75 dir.
+#Satılan miktarını %3 ünü komisyoncu alır.
+
+#Programda şunların yer almasını istiyoruz.
+
+#Hisse senedi için ödenen para miktarı.
+#Komisyoncuya ödenen miktarı.
+#Satılan hisse fiyatı.
+#Hisseleri satıldığında komisyoncuya ödenen para
+#Hisse senedi satarken ve komisyonculara ödediği para miktarını gösterin.
+#...Sonu. pozitif ise kar ve negatif ise zarar olduğunu programda gösterin.
+
+hisse= 2000                     #Hisse adet sayısıdır.
+alıs=40*hisse                   #Alışda harcanan para.
+komisyon1=alıs*0.03             #Alışda komisyoncuya ödenen para.
+masraf=alıs+komisyon1     #Alışda yapılan masraf.
+
+#2 hafta sonra hisse senedini satar.
+satıs=42.75*hisse
+komisyon2=satıs*0.03
+gelir=satıs-komisyon2
+sonuc=gelir-masraf
+
+#Ekrana yazdıralım.
+print("Hisse alımı yaptığımızda tutan miktar: ",     alıs," $")
+print("Hisse alımında komisyoncuya ödenen miktar: ", komisyon1," $")
+print("Hisse satışında elde edilen para: ",          satıs," $")
+print("Hisse satışında komisyoncuya ödenen miktar: ",komisyon2," $")
+print("Hisse satışında elde edilen gelir: ",         gelir," $")
+
+print("Elde kalan NET bakiye: ",sonuc,"$")
+
+if sonuc>0:
+    print("Kardasın :)")
