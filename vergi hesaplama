@@ -1,0 +1,22 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 96 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Kullanıcının satın alma miktarını yazınız.
+#Eyalet vergisi %5,ilçe vergisi %2.5 olsun.
+#Program bize:
+#Alım miktarı,eyalet satış vergisini,ilçe satış vergisini,toplam satış vergisini ve toplam satış vergisini versin.
+
+alım=float(input("Alım miktarını yazınız: "))
+eyalet=alım*0.05        #0.05=%5
+ilce=alım*0.025         #0.025=%2.5
+toplam=eyalet+ilce
+
+#Şimdi ise ekrana yazdıralım.
+print("₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺")
+print("Alım miktarı: ",alım)             
+print("Eyalete ödenecek vergi: ",format(eyalet,'.2f'))
+print("İlçeye ödenecek vergi: ",format(ilce,'.2f'))
+print("Toplam ödenecek vergi: ",format(toplam,'.2f'))
+print("₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺₺")
