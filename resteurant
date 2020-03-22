@@ -1,0 +1,16 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 96 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Bir resteurantımız olsun.
+#Program yiyecek ücretini isteyecek.
+#Bununla birlikte %18 bahşiş ve %7 vergiyi katarak müşteriye fatura çıkaracak.
+
+yemek=float(input("Yemek ücreti ne kadardır: "))    #Vergiler ve bahşiş hariç olan fiyat.
+bahsis=yemek*0.18                                   #Bahşiş i hesaplar.
+vergi=yemek*0.07                                    #Vergiyi hesaplar.
+
+toplam=yemek+bahsis+vergi                           #Müşterinin ödemesi gereken miktar.
+
+print("Ödemeniz gereken miktar",toplam,"₺")
