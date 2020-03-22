@@ -1,0 +1,19 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 95 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Kaza ve gecikme olmadığı varsayılacak
+#İki nokta arasındaki yol "yol=hız*zaman" şeklinde hesaplanır.
+#Bir araba 70 mil hızla ilerlemektedir.
+#6,10 ve 15 saatte gidilecek programı yazınız.
+
+x=6*70
+y=10*70
+z=15*70
+
+#Şimdi sonuçları ekrana yazdıralım.
+
+print("6 saatte gidilecek yolumuz: ",x)
+print("10 saatte gidilecek yolumuz: ",y)
+print("15 saatte gidilecek yolumuz: ",z)
