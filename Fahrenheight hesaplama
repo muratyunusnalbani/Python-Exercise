@@ -1,0 +1,13 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 96 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Celsius değerini Fahrenheight e dönüştürerek hesaplayalım.
+#9/5=1.8 degerini almakla beraber  F=1.8*C+32  formülüdür.
+
+C=float(input("Cesius değerini giriniz: "))
+F=C*1.8+32                                         #Fahrenheight degerini hesaplayacağız.
+
+#Şimdi aşağıda Fahrenheight değerini ekrana yazdıralım.
+print("Fahrenheight değeri: ",F," dir")
