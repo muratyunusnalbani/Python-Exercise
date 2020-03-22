@@ -1,0 +1,16 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 96 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Bir arabanın galon başındaki mil aşağıdaki formullerle hesaplanır.
+#Kullanıcının kullandıpı mil sayısını ve kullanılan gaz galonunu soran bir program yazın.
+#Otomobilin MPG si hesaplanmalı ve sonucu göstermelidir.
+
+mıl=float(input("Gittigi mil ne kadardır: "))
+lt=float(input("Kullanılan gaz ne kadardır: "))
+sbt=float(input("Alınacak sabit değer ne kadardır: "))
+
+hesapla=mıl*lt*sbt
+print(hesapla,"L/100km")
+
