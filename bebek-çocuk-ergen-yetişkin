@@ -1,0 +1,25 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 133 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Kullanıcıdan bir kişinin yaşını girmesini isteyen bir program yazın.
+#Program,kişinin bebek mi çocuk mu,ergen mi yoksa yetişkinmi olduğunu gösteren bir program yazınız.
+
+#1 veya daha küçük yaştaysa bebektir.
+#1 den büyük ama 13 den küçükse çocuktur.
+#13 veya daha büyük ama 20 den küçükse ergendir.
+#En az 20 yaşında ise yetişkindir.
+
+#Şimdi kişinin yaşını soralım.
+yas=float(input("kişinin yaşı kaçtır:"))
+
+#Döngülerimizi devreye koyalım.
+if yas<1 or yas==1:
+    print("Bebek")
+elif yas>1 and yas<13:
+    print("Çocuk")
+elif yas!=20 and yas<20:
+    print("Ergen")
+else:
+    print("Yetişkin")
