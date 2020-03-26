@@ -1,0 +1,29 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 133 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Dikdörtgen alanı en*boy dur
+#İki dikdörtgenin uzunluğunu ve genişliğini soran bir program yaz.
+#Program kullanıcıya hangi dikdörtgenin daha geniş alana sahip oldugunu söylesin.
+#Alanların aynı olup olmadığını söylesin.
+
+#İlk önce en ve boylarını giriyoruz.
+
+en1  =float(input("1.Enine giriniz:  "))
+en2  =float(input("2.Enine giriniz:  "))
+boy1 =float(input("1.Boyuna giriniz: "))
+boy2 =float(input("2.Boyuna giriniz: "))
+
+#Daha sonra dikdörtgen alanlarını giriyoruz.
+
+DA1=en1*boy1
+DA2=en2*boy2
+
+if DA1!=DA2 and DA1>DA2:
+    print("İki dikdörtgenin alanı farklıdır VE 1.dikdörtgen daha büyüktür.")
+elif DA1!=DA2 and DA2>DA1:
+    print("İki dikdörtgen alanı farklıdır VE 2.dikdörtgen daha büyüktür.")
+else:
+    print("Dikdörtgenlerin alanları birbirine eşittir.")
+    
