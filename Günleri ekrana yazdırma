@@ -1,0 +1,29 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 133 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Kullanıcıdan 1 ile 7 arasında bir sayı istenen bir program yazın.
+#1=Pazartesi , 2=Salı , 3=Çarşamba , 4=Perşembe , 5=Cuma , 6=Cumartesi , 7=Pazar
+#Kullanıcı 1 ile 7 aralığın dışına bir sayı girerse program bir hata mesajı görüntülemelidir.
+
+#----------------------------------------------------------------------
+
+sayı=float(input("Bir sayı giriniz: "))
+
+if sayı>7:
+    print("HATA!!!")
+elif sayı==1:
+    print("pazartesi")
+elif sayı==2:
+    print("salı")
+elif sayı==3:
+    print("çarşamba")
+elif sayı==4:
+    print("perşembe")
+elif sayı==5:
+    print("cuma")
+elif sayı==6:
+    print("cumartesi")
+elif sayı==7:
+    print("pazar")
