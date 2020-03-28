@@ -1,0 +1,28 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 136 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#99 dolara perekande satış yapan bir paket satan yazılım şirketi vardır.
+#Miktar indirimleri şu şekildedir:
+
+#10-19 adette %10
+#20-49 adette %20
+#50-99 adette %30
+#100-  adette %40
+
+#Kullanıcının satın alınan paket sayısını girmesini isteyen bir program yazınız.
+#Daha sonra indirim miktarı ve indirimden sonraki toplam satın alma miktarını görüntüleyin.
+
+adet=int(input("Kaç adet almayı düşünüyorsunuz: "))
+
+if adet<10:
+    print(adet*99," ₺ olup indirimden faydalamıyorsunuz.")
+elif adet==10 or adet<20:
+    print(adet*99*0.9," ₺ olup %10 indirimden faydalandınız.")
+elif adet==20 or adet<50:
+    print(adet*99*0.8," ₺ olup %20 indiriminden faydalandınız. ")
+elif adet==50 or adet<100:
+    print(adet*99*0.7," ₺ olup %30 indiriminden faydalandınız.")
+else:
+    print(adet*99*0.6," ₺ olup %40 indirimden faydalandınız.")
