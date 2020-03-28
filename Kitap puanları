@@ -1,0 +1,28 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 135 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Bir tane kitapçı her ay kitap sayısına göre müşterilerine puan veren bir kitap klübüne sahiptir.
+
+#PUANLAMA ŞU ŞEKİLDEDİR:
+#0 kitap alırsa puan alamaz.
+#2 kitap alırsa 5 puan
+#4 kitap alırsa 15 puan 
+#6 kitap alırsa 30 puan
+#8 kitap veya daha fazla kitap satın alırsa 60 puan kazanır
+
+#Kullanıcıdan bu ay satın aldığı kitap sayısını girmesini isteyen ve verilen puan sayısını gösteren bir program yazınız.
+
+puan=int(input("Kaç kitap aldınız: "))
+
+if puan==0:
+    print("Puan alamadınız")
+elif puan==2 or puan==1:
+    print("Puan sayınız 5 dir.")
+elif puan==3 or puan==4:
+    print("Puan saınız 15 dir.")
+elif puan==5 or puan==6:
+    print("Puan sayınız 30 dur.")
+else:
+    print("Puan sayınız 60 dır.")
