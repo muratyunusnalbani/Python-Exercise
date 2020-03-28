@@ -1,0 +1,32 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 134 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Kullanıcıdan 1-10 arasında bir sayı girmesini isteyen bir program yazın.
+#Bu sayılar ROMEN RAKAMLARIYLA görüntülenmelidir.
+
+rakam=int(input("1-10 arasında bir sayı giriniz: "))
+
+if rakam==1:
+    print("I")
+elif rakam==2:
+    print("II")
+elif rakam==3:
+    print("III")
+elif rakam==4:
+    print("IV")
+elif rakam==5:
+    print("V")
+elif rakam==6:
+    print("VI")
+elif rakam==7:
+    print("VII")
+elif rakam==8:
+    print("VIII")
+elif rakam==9:
+    print("IX")
+elif rakam==10:
+    print("X")
+else:
+    print("1-10 arasında bir sayı giriniz")
