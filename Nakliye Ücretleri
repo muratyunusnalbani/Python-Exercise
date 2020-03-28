@@ -1,0 +1,25 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 136 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Bir tane nakliye şirketimiz olsun.
+#Şu şekilde hesaplansın:
+
+#2 kg veya daha az : 1.5   ₺
+#2-6 kg arası      : 3     ₺
+#6-10 kg arası     : 4     ₺
+#10 kg daha fazla  : 4.75  ₺
+
+#Kullanıcıdan bir paketin ağırlıgını girmesini isteyen ve ardından nakliye ücretini görüntüleyen bir proğram yazınız.
+
+kilo=input("Paketiniz kaç kg: ")
+
+if int(kilo)<=2:
+    print("Ödeyeceğiniz tutar 1.5 ₺ dir.")
+elif int(kilo)>2 and 6>int(kilo):
+    print("Ödeyeceğiniz tutar 3 ₺ dir.")
+elif int(kilo)==6 and 10>int(kilo):
+    print("Ödeyeceğiniz tutar 4 ₺ dir.")
+else:
+    print("Ödeyeceğiniz tutar 4.75 ₺ dir.")
