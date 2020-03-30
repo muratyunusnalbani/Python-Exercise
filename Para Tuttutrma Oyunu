@@ -1,0 +1,25 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 135 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Kullanıcının tam bir dolar kazanması için gereken jeton sayısının girmesini sağlayan sayma oyunu oluşturun.
+#Program kullanıcıdan 1,5,10,25 cent sayısını girmesini istemektedir.
+#Toplam değeri 1 dolara eşitse program oyuncuyu tebirk etmelidir.
+#Aksi takdirde programa girilen tutarın 1 dolardan daha fazla veya daha az olduğunu mesajla söylemelidir. 
+
+cent1=int(input("1 kuruşun sayısını giriniz :  "))
+cent2=int(input("5 kuruşun sayısını giriniz :  "))
+cent3=int(input("10 kuruşun sayısını giriniz:  "))
+cent4=int(input("25 kuruşun sayısını giriniz:  "))
+
+toplam=cent1*1+cent2*5+cent3*10+cent4*25
+
+#1 dolar== 100 cent oldugunu biliyoruz.
+
+if toplam>100:
+    print("Girdiğiniz para 1 $ dan daha fazladır.")
+elif toplam<100:
+    print("Girdiğiniz para 1 $ dan daha azdır.")
+else:
+    print("1 $ tutturdunuz.TEBRİKLER.")
