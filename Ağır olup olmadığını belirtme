@@ -1,0 +1,25 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 134 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Bilim adamları bir nesnenin kütlesini kg olarak ağırlığını Newton cinsinden ölçer.
+# ağırlık=kütle*9.8
+
+#Kullanıcının bir nesnesinin girmesini isteyen ve ardından ağırlığını hesaplayan bir program yazın.
+#Nesne 500 N den ağırsa çok ağır,100 N den hafif ise çok hafif olduğunu yazın.
+
+
+#Önce kütlesini giriyoruz.
+kutle=float(input("Kütlesini giriniz: "))
+
+#Sonra ise ağırlık ne kadar onu hesaplıyoruz.
+
+agırlık=kutle*9.8
+
+if agırlık>=500:
+    print("ÇOK AĞIR")
+elif agırlık<=100:
+    print("ÇOK HAFİF")
+else:
+    print("NORMAL")
