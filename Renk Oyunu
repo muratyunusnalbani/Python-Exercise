@@ -1,0 +1,34 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 135 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Rulet çarkında cepler 0 ile 36 arasında numaralandırmıştır.Ceplerin renkleri aşağıdaki gibidir.
+
+# 0 yeşildir.
+# 1-10 arası olan renkler için tek olanlar kırmızı,çift olanlar siyahtır.
+# 11-18 arası olan renkler için tek olanlar siyah,çift olanlar kırmızıdır.
+# 29-36 arasında olan renkler için tek olanlar siyah,çift olanlar kırmızıdır.
+
+#Kullanıcının bir cep numarasını girmesini isteyen ve renkini ekrana gösteren.
+#0-36 aralığı dışında bir sayı girerse program bir hata mesajı görüntülemelidir.
+
+sayı=int(input("Bir sayı giriniz: "))
+
+if 0<sayı<10:
+    if sayı%2==0:
+        print("SİYAH")
+    else:
+        print("KIRMIZI")
+elif 11<sayı<18:
+    if sayı%2==0:
+        print("KIRIMIZI")
+    else:
+        print("SİYAH")
+elif 29<sayı<36:
+    if sayı%2==0:
+        print("KIRMIZI")
+    else:
+        print("SİYAH")
+else:
+    print("HATALI SAYI GİRDİNİZ!!!")
