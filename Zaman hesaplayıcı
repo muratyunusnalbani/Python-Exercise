@@ -1,0 +1,28 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 137 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Kullanıcının saniye girmesini isteyen ve aşagıdaki gibi çalışan bir prıgram yazınıd:
+
+#1 dk = 60 sn vardır.Kullanıcı tarafından girilen saniye sayısı 60 a eşit veya 60 dan büyükse,program dk cinsinden dk sayısını görüntülemesi gerekir.
+#1 st = 3600 sn vardır.Kullanıcı tarafından girilen saniye sayısı 3600 den büyük veya buna eşitse programın saniye cinsinden saat sayısını gösteren bir program yazınız.
+#1 gn = 86400 sn vardır. kullanıcı tarafından girilen saniye sayısı 86400 den büyük veya ona eşitse programın bu saniye cinsinden gün sayınıs görüntülemesi gerekmektedir.
+
+program=int(input("Saniye giriniz: "))                #Saniye girmemiz isteniyor.
+
+#Koşulları ele alalım.
+
+if program>=60 and program<3600:
+    saniye=program/60
+    print("Dakika: ",saniye)
+elif program>=3600 and program<86400:
+    saat=program/3600
+    print("Saat: ",saat)
+else:
+    gun=program/86400
+    print("Gün",gun)
+    
+    
+    
+#NOT: ZAMAN HESAPLAMALARINDA YANLIŞLAR YAPMIŞ OLABİLRİM :(
