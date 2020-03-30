@@ -1,0 +1,27 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 136 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Vucut kitle İndeksi hesaplayacaz.
+#Boyuna göre fazla kilolu veya düşük kilolu olup olmadığını belirlemek için kullanılır.
+#Formülümüz aşağıdaki şekilde hesaplanır:
+
+#      İndeks=ağırlık * 703/uzunluk^3
+
+# kilo kg , boy inç cinsinden ölçülüyor.
+# kişinin optimal ağırlığa sahip düşük veya fazla kilolu oldugunu söylemelidir.
+# 18.5 ile 25 arasındaysa kg optimaldir.
+#25 den büyükse aşırı kilolu, 18.5 den küçükse zayıf kabul edilir.
+
+agırlık=float(input("Ağırlıgınızı giriniz: "))
+uzunluk=float(input("Uzunluğunuzu giriniz: "))
+
+indeks=agırlık*(703/uzunluk**3)
+
+if indeks<=25 and indeks>=18.5:
+    print("OPTİMAL")
+elif indeks>25:
+    print("KİLOLU")
+else:
+    print("ZAYIF")
