@@ -1,0 +1,12 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 179 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Koşu bandında koşsun.
+#Dakikada 4.2 kalori yaksın.
+#10,15,20,25 ve 30 dk sonra yakılan kalori sayısını görüntülemek için bir döngü kullanılan bir program yazınız.
+
+print("Bir koşu bandı yaktığı kaloriler: ")
+for kj in [10,15,20,25,30]:
+    print(4.2*kj)
