@@ -1,0 +1,29 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 179 syf deki alıştırmalardan yapılmıştır.
+
+#--------------------------------------------------------
+
+#Kullanıcıdan bir ay boyunca bütçelediği tutarı girmesini isteyen bir program yazın.
+#Bir döngü daha sonra kullanıcıdan ay içinde harcamalarının her birini girmesini ve toplam tutarını korumasını ister.
+#Döngü bittiğinde,program kullanıcının bütçesinin üstünde veya altında olduğu miktarı görüntülemelidir.
+
+butce=int(input("Bu ayda girilen bütçe tutarı giriniz: "))
+
+kac_kere=int(input("Bu ayda kaç kere harcama yapıldı: "))
+
+toplam=0.0
+
+for ay in range(1,kac_kere+1):
+    harcama=float(input("Harcanan miktar: "))
+    print(ay,". gününde toplam harcanan miktar: ",harcama)
+    toplam+=harcama
+    print("Şu anki toplam para: ",toplam)
+
+
+
+if toplam>butce:
+    print("Bütcenizi aştınız.")
+elif toplam==0:
+    print("Dengeli harcadınız")
+else:
+    print("Paranız fazla kalmıştır")
