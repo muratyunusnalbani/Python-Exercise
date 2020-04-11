@@ -1,0 +1,17 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 181 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------
+
+#Bir üniversite var.Tam zamanlı bir öğrenci için öğrenim başına düşen ücret 8000$ dır.
+#Ders önümüzde 5 yıl süreyle %3 her yıl artacağı açıklandı.
+#Önümüzdeki 5 yıl için öngörülen dönem harç tutarını görüntüleyen bir program yazınız.
+
+ucret=8000
+yıl  =5
+for YIL in range(1,yıl+1):
+    toplam=0.0
+    artıs=ucret*0.03
+    toplam=ucret+artıs
+    print(YIL,".yıl:",format(toplam,".2f"))
+    ucret=toplam
