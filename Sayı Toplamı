@@ -1,0 +1,20 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 180 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------
+
+#Kullanıcıdan bir dizi pozitif sayı girmesini isteyen bir döngü içeren bir program yazın.
+#Kullanıcının serinin sonunu belirtmek için  negatif bir sayı girmelidir.
+#Tüm pozitif sayılar girildikten sonra,programın toplamı göstermelidir.
+
+sayı=float(input("Bir sayı giriniz: "))
+toplam=0.0
+
+while sayı>0:
+    toplam=toplam+sayı
+    print("Sayıların toplamı: ",toplam)
+    sayı=float(input("Bir sayı giriniz: "))
+    while sayı<0:
+        
+        print("Döngü kırılmıştır",end="")
+        sayı=float(input("Bir sayı giriniz: "))
