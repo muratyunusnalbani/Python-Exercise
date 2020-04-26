@@ -1,0 +1,18 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 179 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+
+#Bir hata toplayıcı,5 gün boyunca böcek toplar.
+#5 gün boyunca toplanan hataların toplam sayısını koruyan bir program yazınız.
+#Döngü,hergün için toplanan hata sayısını sormalı ve 
+#döngü bittiğinde,program toplanan toplam hata sayısını göstermelidir.
+
+gun=5
+top=0.0
+for boc in range(1,gun+1):
+    sayı=int(input("Böcek sayısı: "))
+    top=top+sayı
+    
+print("Toplanan böcek sayısı",top)
