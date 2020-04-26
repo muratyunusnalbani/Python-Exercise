@@ -1,0 +1,17 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 181 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------
+
+#Okyanus seviyeleri şuanda yılda yaklaşık 1,6 mm yükseldiğini farzedelim.
+#Önümüzdeki 25 yıl boyunca okyanusun her yıl yükseleceği mm sayısını gösteren bir uygulama oluşturun.
+
+yıl     =25
+yükselen=1.6
+top=0.0
+
+print()
+print("Yıl\tYükseklikler")
+for sayı in range(1,yıl+1):
+    top=top+yükselen
+    print(sayı,"\t",format(top,".1f"))
