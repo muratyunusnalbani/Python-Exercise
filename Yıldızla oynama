@@ -1,0 +1,24 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 182 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Yazarın 13. ve 14. sorularına bak.
+
+rows=7
+cols=7
+
+#13.soru için
+for r in range(rows):
+    for c in range(r,rows):
+        print("*")
+    print()
+    
+#14.soru için
+rows=7
+cols=7
+
+for r in range(rows):
+    for c in range(r,rows):
+        print(" ")
+    print("#")
