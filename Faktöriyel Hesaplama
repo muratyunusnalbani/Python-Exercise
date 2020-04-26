@@ -1,0 +1,22 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 181 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------
+
+#Matematikte notasyonu n! negatif olmayan tamsayının faktöriyelini temsil eder.
+#N nin faktörüyeli,1 den n e kadar olan negatif olmayan tam sayıların çarpımıdır.Örneğin:
+#       7!=1*2*3*4*5*6*7=5040   gibi...
+#Kullanıcının negatif olmayan bir tam sayı girmesine izin veren bir program yazın
+#Daha sonra faktörüyellerini hesaplamak için bir döngü kullanın.
+
+n=int(input("Faktöriyelini hesaplamak için bir sayı giriniz: "))
+fack=1
+
+for i in range(1,n+1):
+    
+    fack=fack*i
+    
+print(n," sayının faktörüyeli: ",fack)
+
+Not:Aşağıdaki linke bakarak yapılmıştır.
+LİNK: https://www.geeksforgeeks.org/factorial-in-python/
