@@ -1,0 +1,21 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 180 syf deki alıştırmalardan yapılmıştır.
+
+#--------------------------------------------------------
+
+#Bir kişinin maaşı ilk gün bir kuruş,ikinci gün iki kuruş ve 
+#hergün ikiye katlanmaya devam ederse,bir süre boyunca kazanacağı para miktarını hesaplayan bir program yazınız.
+#Program kullanıcıdan gün sayısını istemelidir.
+#Her gün için maaş ne olduğunu gösteren bir tablo görüntüleyin ve sonra dönem sonunda toplam ödemeyi gösterin.
+#Çıktı,kuruş sayısı olarak değil dolar olarak gösterilmelidir.
+toplam=0.0
+gun=int(input("Gün sayısını giriniz: "))
+para=int(input("Para miktarını giriniz: "))
+print("GÜN\tPARA MİKTARI")
+for g in range(1,gun+1):
+    para_miktarı=2**(g-1)
+    print(g,"\t",para_miktarı)
+    
+
+    toplam=para_miktarı+toplam
+    print(toplam," toplamını verir.")
