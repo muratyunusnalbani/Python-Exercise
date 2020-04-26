@@ -1,0 +1,32 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 180 syf deki alıştırmalardan yapılmıştır.
+
+#--------------------------------------------------------
+
+#Bir aracın kat ettiği mesafe aşağıdaki gibi hesaplanır:
+#                    MESAFE=HIZ*ZAMAN
+#ÖRNEK ÇIKTI: 
+#ARACIN KM/S CİNSİNDEN HIZI NEDİR:40
+#SEYEHAT SÜRESİNİ KAÇTIR:3
+#SAAT             KAT EDİLEN MESAFE
+#_________________________________
+# 1               40
+# 2               80
+# 3               120
+
+#Bizden istenenleri belirtelim.
+hız       =int(input("Aracın hızını giriniz: "))
+saat      =int(input("Seyehat süresini giriniz: "))
+
+#Tabloyu oluşturalım.
+print()
+print         ("SAAT\t\tKat edilen mesafe")
+print         ("__________________________________________")
+top       =0.0
+
+#Döngüyü oluşturalım.
+for a in range(1,saat+1):
+    mesafe=hız*saat
+    top   =hız+top
+    print     ("***************************************")
+    print     (a,".inci saatte","\t",top)
