@@ -1,0 +1,26 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 135 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------------------------------
+
+#Kırmızı,mavi ve sarı ana renkler olarak bilinir.
+#Ana renklerden hehangi ikisi karıştırılırsa işte bunlar elde edilir.
+#Kırmızı+Mavi=Mor , Kırmızı+Sarı=Turuncu , Mavi+Sarı=Yeşil
+
+#Kullanıcıdan karıştırılacak iki ana rengin adını girmesini isteyen bir program tasarlayın.
+#Kullanıcı ana renklerin dışında bir renk girerse hata mesajı versin
+
+r1=input(str("Rengi giriniz: "))
+r2=input(str("Rengi giriniz: "))
+
+
+#Döngüyü yapmakta zorlanıp,aşağıdaki verilen linkten esinlenip yapılmıştır.
+#LİNK:    https://www.youtube.com/watch?v=YncksNMx3qU
+if (r1=="kırmızı" and r2=="sarı") or (r1=="sarı" and r2=="kırmızı"):
+    print("turuncu")
+elif (r1=="kırmızı" and r2=="mavi") or (r1=="mavi" and r2=="kırmızı"):
+    print("mor")
+elif (r1=="mavi" and r2=="sarı") or (r1=="sarı" and r2=="mavi"):
+    print("yeşil")
+else:
+    print("HATA!!!!!!!!!!!!!!!!!!")
