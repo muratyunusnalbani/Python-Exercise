@@ -1,0 +1,31 @@
+#Starting Out With Python,3.Edition
+#Tonny Gaddis kitabının 181 syf deki alıştırmalardan yapılmıştır.
+
+#---------------------------------------------
+
+#Bir organizma populasyonunun yaklaşık büyüklügünü tahmin eden bir program yazın.
+#Uygulama,kullanıcının başlangıç organizma sayısını,ortalama günlük nufus artışını(yüzde olarak) ve organizmaların gün sayısını girmesine izin vermek için metin kutuları kullanılmalıdır.
+#Örnegi görmek için yazarın kitabına bakınız.
+
+GS=int(input("Popülasyondaki gün sayısını giriniz: "))
+
+YS=float(input("Popülasyondaki yüzde artış hızını giriniz: "))
+
+OS=int(input("Organizma sayısını giriniz: "))
+
+print("Gün Sayısı\tPopülasyon")
+
+for gun in range(1,GS+1):
+    
+    
+    artıs=YS*OS
+    sımdı=OS+artıs
+    
+    
+    print(gun,"\t","\t",sımdı)
+    
+    
+#Bunu tamamlamadım.Çünkü yapamadım.
+#Yapmak için araştırma yaparken aşağıdaki linkde aynısına denk geldim ve bu soruyu devam ettirmenin etik olmadığını karar kıldım.
+#Videoyu araştırmadan önceki haline bıraktım.
+#Bahsettigim videonun LİNKİ:      https://www.youtube.com/watch?v=86OJBqv3y3k
